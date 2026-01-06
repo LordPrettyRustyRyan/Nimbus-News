@@ -47,8 +47,7 @@ The backend acts as a secure API layer to fetch real-time news data from NewsAPI
 2. Install Dependencies
    ```bash
    npm install
-3. Setup Environment Variables
-   Create a .env file inside the backend/ folder and add:
+3. Setup Environment Variables — Create a .env file inside the backend/ folder and add:
       ```bash
    NEWS_API_KEY=your_newsapi_key_here
   > Get your API key from [NewsAPI](https://newsapi.org/)
@@ -58,7 +57,6 @@ The backend acts as a secure API layer to fetch real-time news data from NewsAPI
      cd backend
      node server.js
   > Server will start on the configured port (e.g. http://localhost:5000).
-5. Start React Frontend
-  Open a new terminal, go to the project root, then run:
+5. Start React Frontend — Open a new terminal, go to the project root, then run:
    ```bash
     npm run dev
